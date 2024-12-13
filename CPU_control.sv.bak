@@ -1,0 +1,113 @@
+module CPU_control (instruction, ALUOp, Reg2Loc, ALUSrc, MemToReg, RegWrite, MemWrite, BrTaken, UncondBr, xfer_size, zero, negative, overflow, carry_out, ZF, NF, OF, CoF, SetFlag);
+	
+	input logic [31:0] instruction;
+	input logic zero, negative, overflow, carry_out, ZF, NF, OF, CoF;
+	
+	output logic [1:0] ALUOp, ALUSrc, MemToReg;
+	output logic [3:0] xfer_size;
+	output logic Reg2Loc, RegWrite, MemWrite, BrTaken, UncondBr, SetFlag;
+	
+	always_comb begin
+		if (instruction[31:22] == 10'b1001000100) begin // ADDI
+			ALUSrc = 2'b10;
+			MemToReg = 0;
+			RegWrite = 1;
+			MemWrite = 0;
+			BrTaken = 0;
+			ALUOp = 3'b010;
+			SetFlag = 0;
+		end else if (instruction[31:21] == 11'b10101011000) begin // ADDS
+			Reg2Loc = 1;
+			ALUSrc = 0;
+			MemToReg = 0;
+			RegWrite = 1;
+			MemWrite = 0;
+			BrTaken = 0;
+			ALUOp = 3'b010;
+			SetFlag = 1;
+		end else if (instruction[31:26] == 6'b000101) begin // B
+			RegWrite = 0;
+			MemWrite = 0;
+			BrTaken = 1;
+			UncondBr = 1;
+			SetFlag = 0;
+		end else if (instruction[31:24] == 8'b01010100) begin // B.LT
+			Reg2Loc = 0;
+			ALUSrc = 0;
+			RegWrite = 0;
+			MemWrite = 0;
+			BrTaken = (negative ^ overflow);
+			UncondBr = 0;
+			SetFlag = 0;
+		end else if (instruction[31:24] == 8'b10110100) begin // CBZ
+			Reg2Loc = 0;
+			ALUSrc = 0;
+			RegWrite = 0;
+			MemWrite = 0;
+			BrTaken = zero;
+			UncondBr = 0;
+			ALUOp = 3'b000;
+			SetFlag = 0;
+		end else if (instruction[31:21] == 11'b11111000010) begin // LDUR
+			ALUSrc = 1;
+			MemToReg = 1;
+			RegWrite = 1;
+			MemWrite = 0;
+			BrTaken = 0;
+			ALUOp = 3'b010;
+			xfer_size = 4'd8;
+			SetFlag = 0;
+		end else if (instruction[31:22] == 10'b00111000010) begin // LDURB
+			ALUSrc = 1;
+			MemToReg = 1;
+			RegWrite = 1;
+			MemWrite = 0;
+			BrTaken = 0;
+			ALUOp = 3'b010;
+			xfer_size = 4'd1;
+			SetFlag = 0;
+		end else if (instruction[31:23] == 9'b111100101) begin // MOVK
+			Reg2Loc = 1;
+			MemToReg = 3;
+			RegWrite = 1;
+			MemWrite = 0;
+			BrTaken = 0;
+			SetFlag = 0;
+		end else if (instruction[31:23] == 9'b110100101) begin // MOVZ
+			Reg2Loc = 1;
+			MemToReg = 2;
+			RegWrite = 1;
+			MemWrite = 0;
+			BrTaken = 0;
+			SetFlag = 0;
+		end else if (instruction[31:21] == 11'b11111000000) begin // STUR
+			Reg2Loc = 0;
+			ALUSrc = 1;
+			RegWrite = 0;
+			MemWrite = 1;
+			BrTaken = 0;
+			ALUOp = 3'b010;
+			xfer_size = 4'd8;
+			SetFlag = 0;
+		end else if (instruction[31:22] == 10'b00111000000) begin // STURB
+			Reg2Loc = 0;
+			ALUSrc = 1;
+			RegWrite = 0;
+			MemWrite = 1;
+			BrTaken = 0;
+			ALUOp = 3'b010;
+			xfer_size = 4'd1;
+			SetFlag =0;
+		end else if (instruction[31:21] == 11'b11101011000) begin // SUBS
+			Reg2Loc = 1;
+			ALUSrc = 0;
+			MemToReg = 0;
+			RegWrite = 1;
+			MemWrite = 0;
+			BrTaken = 0;
+			ALUOp = 3'b011;
+			SetFlag = 1;
+		end
+	end
+					
+endmodule

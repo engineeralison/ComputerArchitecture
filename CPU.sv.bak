@@ -1,0 +1,20 @@
+`timescale 10ps/1fs
+
+module CPU (clk, reset);
+	
+	input logic clk, reset;
+	
+	logic [63:0] PC, 
+	logic [31:0] instruction
+	logic [3:0] xfer_size;
+	logic [2:0] ALUOp;
+	logic [1:0] ALUSrc, MemToReg;
+	logic Reg2Loc, MemToReg, RegWrite, MemWrite, BrTaken, UncondBr, SetFlag;
+	logic zero, negative, overflow, carry_out, ZF, NF, OF, CoF;
+	
+	instruction_datapath test1 (clk, reset, UncondBr, BrTaken, instruction, PC);
+	CPU_control test2 (instruction, ALUOp, Reg2Loc, ALUSrc, MemToReg, RegWrite, MemWrite, BrTaken, UncondBr, xfer_size, zero, negative, overflow, carry_out, ZF, NF, OF, CoF, SetFlag);
+	CPU_datapath test3(clk, reset, instruction, Reg2Loc, ALUSrc, MemToReg, RegWrite, MemWrite, ALUOp, xfer_size, zero, negative, overflow, carry_out, ZF, NF, OF, CoF, SetFlag);
+	
+	instructmem test4(PC, instruction, clk);
+endmodule

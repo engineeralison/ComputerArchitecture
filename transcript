@@ -1,0 +1,2756 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:31 on Nov 08,2023
+# vlog -reportprogress 300 ./alustim.sv 
+# -- Compiling module alustim
+# 
+# Top level modules:
+# 	alustim
+# End time: 16:24:32 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:32 on Nov 08,2023
+# vlog -reportprogress 300 ./alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 16:24:32 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:32 on Nov 08,2023
+# vlog -reportprogress 300 ./alu1bit.sv 
+# -- Compiling module alu1bit
+# -- Compiling module alu1bit_tb
+# 
+# Top level modules:
+# 	alu1bit_tb
+# End time: 16:24:32 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:32 on Nov 08,2023
+# vlog -reportprogress 300 ./adder.sv 
+# -- Compiling module adder
+# -- Compiling module adder_tb
+# 
+# Top level modules:
+# 	adder_tb
+# End time: 16:24:32 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:32 on Nov 08,2023
+# vlog -reportprogress 300 ./test_zero.sv 
+# -- Compiling module test_zero
+# 
+# Top level modules:
+# 	test_zero
+# End time: 16:24:32 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:32 on Nov 08,2023
+# vlog -reportprogress 300 ./mux.sv 
+# -- Compiling module mux2to1_lab2
+# -- Compiling module mux8to1_lab2
+# 
+# Top level modules:
+# 	mux2to1_lab2
+# 	mux8to1_lab2
+# End time: 16:24:32 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:32 on Nov 08,2023
+# vlog -reportprogress 300 ./mux1.sv 
+# -- Compiling module mux64X32to1
+# -- Compiling module mux32to1
+# -- Compiling module mux16to1
+# -- Compiling module mux4to1
+# -- Compiling module mux2to1
+# -- Compiling module mux2to1v2
+# 
+# Top level modules:
+# 	mux64X32to1
+# 	mux2to1v2
+# End time: 16:24:32 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:32 on Nov 08,2023
+# vlog -reportprogress 300 ./SE.sv 
+# -- Compiling module SE
+# -- Compiling module SE_tb
+# 
+# Top level modules:
+# 	SE_tb
+# End time: 16:24:32 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:32 on Nov 08,2023
+# vlog -reportprogress 300 ./math.sv 
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# End time: 16:24:32 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:32 on Nov 08,2023
+# vlog -reportprogress 300 ./adder64bit.sv 
+# -- Compiling module adder64bit
+# -- Compiling module adder64bit_tb
+# 
+# Top level modules:
+# 	adder64bit_tb
+# End time: 16:24:32 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:32 on Nov 08,2023
+# vlog -reportprogress 300 ./dflipflop.sv 
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# End time: 16:24:32 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:32 on Nov 08,2023
+# vlog -reportprogress 300 ./instruction_datapath.sv 
+# -- Compiling module instruction_datapath
+# -- Compiling module instruction_datapath_tb
+# 
+# Top level modules:
+# 	instruction_datapath_tb
+# End time: 16:24:32 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:32 on Nov 08,2023
+# vlog -reportprogress 300 ./MOV.sv 
+# -- Compiling module MOVZ
+# -- Compiling module MOVK
+# -- Compiling module MOVZ_tb
+# -- Compiling module MOVK_tb
+# 
+# Top level modules:
+# 	MOVZ_tb
+# 	MOVK_tb
+# End time: 16:24:32 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:32 on Nov 08,2023
+# vlog -reportprogress 300 ./regstim.sv 
+# -- Compiling module regstim
+# 
+# Top level modules:
+# 	regstim
+# End time: 16:24:32 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:32 on Nov 08,2023
+# vlog -reportprogress 300 ./regfile.sv 
+# -- Compiling module regfile
+# -- Compiling module decoder
+# -- Compiling module decode2to4
+# -- Compiling module decode3to8
+# -- Compiling module input_register
+# 
+# Top level modules:
+# 	regfile
+# End time: 16:24:32 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:32 on Nov 08,2023
+# vlog -reportprogress 300 ./mux_tb.sv 
+# -- Compiling module mux4to1_tb
+# -- Compiling module mux16to1_tb
+# -- Compiling module mux64x32to1_tb
+# 
+# Top level modules:
+# 	mux4to1_tb
+# 	mux16to1_tb
+# 	mux64x32to1_tb
+# End time: 16:24:32 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:32 on Nov 08,2023
+# vlog -reportprogress 300 ./instructmem.sv 
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# End time: 16:24:33 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:33 on Nov 08,2023
+# vlog -reportprogress 300 ./flagReg.sv 
+# -- Compiling module flagReg
+# 
+# Top level modules:
+# 	flagReg
+# End time: 16:24:33 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:33 on Nov 08,2023
+# vlog -reportprogress 300 ./decoder_tb.sv 
+# -- Compiling module decoder_tb
+# 
+# Top level modules:
+# 	decoder_tb
+# End time: 16:24:33 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:33 on Nov 08,2023
+# vlog -reportprogress 300 ./datamem.sv 
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# End time: 16:24:33 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:33 on Nov 08,2023
+# vlog -reportprogress 300 ./CPU_datapath.sv 
+# -- Compiling module CPU_datapath
+# -- Compiling module CPU_datapath_tb
+# 
+# Top level modules:
+# 	CPU_datapath_tb
+# End time: 16:24:33 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:33 on Nov 08,2023
+# vlog -reportprogress 300 ./CPU_control.sv 
+# -- Compiling module CPU_control
+# 
+# Top level modules:
+# 	CPU_control
+# End time: 16:24:33 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:24:33 on Nov 08,2023
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module CPU_tb
+# 
+# Top level modules:
+# 	CPU_tb
+# End time: 16:24:33 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_tb 
+# Start time: 16:24:33 on Nov 08,2023
+# Loading sv_std.std
+# Loading work.CPU_tb
+# Loading work.CPU
+# Loading work.instruction_datapath
+# Loading work.SE
+# Loading work.shifter
+# Loading work.adder64bit
+# Loading work.adder
+# Loading work.CPU_control
+# Loading work.CPU_datapath
+# Loading work.regfile
+# Loading work.decoder
+# Loading work.decode2to4
+# Loading work.decode3to8
+# Loading work.mux64X32to1
+# Loading work.alu
+# Loading work.alu1bit
+# Loading work.mux2to1_lab2
+# Loading work.mux8to1_lab2
+# Loading work.test_zero
+# Loading work.datamem
+# Loading work.MOVZ
+# Loading work.MOVK
+# Loading work.flagReg
+# Loading work.instructmem
+# Loading work.D_FF
+# Loading work.mux32to1
+# Loading work.mux16to1
+# Loading work.mux4to1
+# Loading work.mux2to1
+# Loading work.input_register
+# Loading work.mux2to1v2
+# ** Warning: Design size of 6733 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test06_MovkMovz.arm
+# ** Error: Assertion error.
+#    Time: 150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 1350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:47 on Nov 08,2023
+# vlog -reportprogress 300 ./alustim.sv 
+# -- Compiling module alustim
+# 
+# Top level modules:
+# 	alustim
+# End time: 16:25:47 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:47 on Nov 08,2023
+# vlog -reportprogress 300 ./alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 16:25:47 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:47 on Nov 08,2023
+# vlog -reportprogress 300 ./alu1bit.sv 
+# -- Compiling module alu1bit
+# -- Compiling module alu1bit_tb
+# 
+# Top level modules:
+# 	alu1bit_tb
+# End time: 16:25:47 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:47 on Nov 08,2023
+# vlog -reportprogress 300 ./adder.sv 
+# -- Compiling module adder
+# -- Compiling module adder_tb
+# 
+# Top level modules:
+# 	adder_tb
+# End time: 16:25:47 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:47 on Nov 08,2023
+# vlog -reportprogress 300 ./test_zero.sv 
+# -- Compiling module test_zero
+# 
+# Top level modules:
+# 	test_zero
+# End time: 16:25:47 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:47 on Nov 08,2023
+# vlog -reportprogress 300 ./mux.sv 
+# -- Compiling module mux2to1_lab2
+# -- Compiling module mux8to1_lab2
+# 
+# Top level modules:
+# 	mux2to1_lab2
+# 	mux8to1_lab2
+# End time: 16:25:47 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:47 on Nov 08,2023
+# vlog -reportprogress 300 ./mux1.sv 
+# -- Compiling module mux64X32to1
+# -- Compiling module mux32to1
+# -- Compiling module mux16to1
+# -- Compiling module mux4to1
+# -- Compiling module mux2to1
+# -- Compiling module mux2to1v2
+# 
+# Top level modules:
+# 	mux64X32to1
+# 	mux2to1v2
+# End time: 16:25:47 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:47 on Nov 08,2023
+# vlog -reportprogress 300 ./SE.sv 
+# -- Compiling module SE
+# -- Compiling module SE_tb
+# 
+# Top level modules:
+# 	SE_tb
+# End time: 16:25:48 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:48 on Nov 08,2023
+# vlog -reportprogress 300 ./math.sv 
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# End time: 16:25:48 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:48 on Nov 08,2023
+# vlog -reportprogress 300 ./adder64bit.sv 
+# -- Compiling module adder64bit
+# -- Compiling module adder64bit_tb
+# 
+# Top level modules:
+# 	adder64bit_tb
+# End time: 16:25:48 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:48 on Nov 08,2023
+# vlog -reportprogress 300 ./dflipflop.sv 
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# End time: 16:25:48 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:48 on Nov 08,2023
+# vlog -reportprogress 300 ./instruction_datapath.sv 
+# -- Compiling module instruction_datapath
+# -- Compiling module instruction_datapath_tb
+# 
+# Top level modules:
+# 	instruction_datapath_tb
+# End time: 16:25:48 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:48 on Nov 08,2023
+# vlog -reportprogress 300 ./MOV.sv 
+# -- Compiling module MOVZ
+# -- Compiling module MOVK
+# -- Compiling module MOVZ_tb
+# -- Compiling module MOVK_tb
+# 
+# Top level modules:
+# 	MOVZ_tb
+# 	MOVK_tb
+# End time: 16:25:48 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:48 on Nov 08,2023
+# vlog -reportprogress 300 ./regstim.sv 
+# -- Compiling module regstim
+# 
+# Top level modules:
+# 	regstim
+# End time: 16:25:48 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:48 on Nov 08,2023
+# vlog -reportprogress 300 ./regfile.sv 
+# -- Compiling module regfile
+# -- Compiling module decoder
+# -- Compiling module decode2to4
+# -- Compiling module decode3to8
+# -- Compiling module input_register
+# 
+# Top level modules:
+# 	regfile
+# End time: 16:25:48 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:48 on Nov 08,2023
+# vlog -reportprogress 300 ./mux_tb.sv 
+# -- Compiling module mux4to1_tb
+# -- Compiling module mux16to1_tb
+# -- Compiling module mux64x32to1_tb
+# 
+# Top level modules:
+# 	mux4to1_tb
+# 	mux16to1_tb
+# 	mux64x32to1_tb
+# End time: 16:25:48 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:48 on Nov 08,2023
+# vlog -reportprogress 300 ./instructmem.sv 
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# End time: 16:25:48 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:48 on Nov 08,2023
+# vlog -reportprogress 300 ./flagReg.sv 
+# -- Compiling module flagReg
+# 
+# Top level modules:
+# 	flagReg
+# End time: 16:25:48 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:48 on Nov 08,2023
+# vlog -reportprogress 300 ./decoder_tb.sv 
+# -- Compiling module decoder_tb
+# 
+# Top level modules:
+# 	decoder_tb
+# End time: 16:25:48 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:48 on Nov 08,2023
+# vlog -reportprogress 300 ./datamem.sv 
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# End time: 16:25:48 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:48 on Nov 08,2023
+# vlog -reportprogress 300 ./CPU_datapath.sv 
+# -- Compiling module CPU_datapath
+# -- Compiling module CPU_datapath_tb
+# 
+# Top level modules:
+# 	CPU_datapath_tb
+# End time: 16:25:48 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:48 on Nov 08,2023
+# vlog -reportprogress 300 ./CPU_control.sv 
+# -- Compiling module CPU_control
+# 
+# Top level modules:
+# 	CPU_control
+# End time: 16:25:49 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:25:49 on Nov 08,2023
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module CPU_tb
+# 
+# Top level modules:
+# 	CPU_tb
+# End time: 16:25:49 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:25:49 on Nov 08,2023, Elapsed time: 0:01:16
+# Errors: 11, Warnings: 1
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_tb 
+# Start time: 16:25:49 on Nov 08,2023
+# Loading sv_std.std
+# Loading work.CPU_tb
+# Loading work.CPU
+# Loading work.instruction_datapath
+# Loading work.SE
+# Loading work.shifter
+# Loading work.adder64bit
+# Loading work.adder
+# Loading work.CPU_control
+# Loading work.CPU_datapath
+# Loading work.regfile
+# Loading work.decoder
+# Loading work.decode2to4
+# Loading work.decode3to8
+# Loading work.mux64X32to1
+# Loading work.alu
+# Loading work.alu1bit
+# Loading work.mux2to1_lab2
+# Loading work.mux8to1_lab2
+# Loading work.test_zero
+# Loading work.datamem
+# Loading work.MOVZ
+# Loading work.MOVK
+# Loading work.flagReg
+# Loading work.instructmem
+# Loading work.D_FF
+# Loading work.mux32to1
+# Loading work.mux16to1
+# Loading work.mux4to1
+# Loading work.mux2to1
+# Loading work.input_register
+# Loading work.mux2to1v2
+# ** Warning: Design size of 6733 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test07_LdurbSturb.arm
+# ** Error: Assertion error.
+#    Time: 150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:50 on Nov 08,2023
+# vlog -reportprogress 300 ./alustim.sv 
+# -- Compiling module alustim
+# 
+# Top level modules:
+# 	alustim
+# End time: 16:26:50 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:50 on Nov 08,2023
+# vlog -reportprogress 300 ./alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 16:26:50 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:50 on Nov 08,2023
+# vlog -reportprogress 300 ./alu1bit.sv 
+# -- Compiling module alu1bit
+# -- Compiling module alu1bit_tb
+# 
+# Top level modules:
+# 	alu1bit_tb
+# End time: 16:26:50 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:50 on Nov 08,2023
+# vlog -reportprogress 300 ./adder.sv 
+# -- Compiling module adder
+# -- Compiling module adder_tb
+# 
+# Top level modules:
+# 	adder_tb
+# End time: 16:26:50 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:50 on Nov 08,2023
+# vlog -reportprogress 300 ./test_zero.sv 
+# -- Compiling module test_zero
+# 
+# Top level modules:
+# 	test_zero
+# End time: 16:26:50 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:50 on Nov 08,2023
+# vlog -reportprogress 300 ./mux.sv 
+# -- Compiling module mux2to1_lab2
+# -- Compiling module mux8to1_lab2
+# 
+# Top level modules:
+# 	mux2to1_lab2
+# 	mux8to1_lab2
+# End time: 16:26:50 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:50 on Nov 08,2023
+# vlog -reportprogress 300 ./mux1.sv 
+# -- Compiling module mux64X32to1
+# -- Compiling module mux32to1
+# -- Compiling module mux16to1
+# -- Compiling module mux4to1
+# -- Compiling module mux2to1
+# -- Compiling module mux2to1v2
+# 
+# Top level modules:
+# 	mux64X32to1
+# 	mux2to1v2
+# End time: 16:26:50 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:50 on Nov 08,2023
+# vlog -reportprogress 300 ./SE.sv 
+# -- Compiling module SE
+# -- Compiling module SE_tb
+# 
+# Top level modules:
+# 	SE_tb
+# End time: 16:26:50 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:50 on Nov 08,2023
+# vlog -reportprogress 300 ./math.sv 
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# End time: 16:26:50 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:50 on Nov 08,2023
+# vlog -reportprogress 300 ./adder64bit.sv 
+# -- Compiling module adder64bit
+# -- Compiling module adder64bit_tb
+# 
+# Top level modules:
+# 	adder64bit_tb
+# End time: 16:26:50 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:50 on Nov 08,2023
+# vlog -reportprogress 300 ./dflipflop.sv 
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# End time: 16:26:50 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:50 on Nov 08,2023
+# vlog -reportprogress 300 ./instruction_datapath.sv 
+# -- Compiling module instruction_datapath
+# -- Compiling module instruction_datapath_tb
+# 
+# Top level modules:
+# 	instruction_datapath_tb
+# End time: 16:26:51 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:51 on Nov 08,2023
+# vlog -reportprogress 300 ./MOV.sv 
+# -- Compiling module MOVZ
+# -- Compiling module MOVK
+# -- Compiling module MOVZ_tb
+# -- Compiling module MOVK_tb
+# 
+# Top level modules:
+# 	MOVZ_tb
+# 	MOVK_tb
+# End time: 16:26:51 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:51 on Nov 08,2023
+# vlog -reportprogress 300 ./regstim.sv 
+# -- Compiling module regstim
+# 
+# Top level modules:
+# 	regstim
+# End time: 16:26:51 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:51 on Nov 08,2023
+# vlog -reportprogress 300 ./regfile.sv 
+# -- Compiling module regfile
+# -- Compiling module decoder
+# -- Compiling module decode2to4
+# -- Compiling module decode3to8
+# -- Compiling module input_register
+# 
+# Top level modules:
+# 	regfile
+# End time: 16:26:51 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:51 on Nov 08,2023
+# vlog -reportprogress 300 ./mux_tb.sv 
+# -- Compiling module mux4to1_tb
+# -- Compiling module mux16to1_tb
+# -- Compiling module mux64x32to1_tb
+# 
+# Top level modules:
+# 	mux4to1_tb
+# 	mux16to1_tb
+# 	mux64x32to1_tb
+# End time: 16:26:51 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:51 on Nov 08,2023
+# vlog -reportprogress 300 ./instructmem.sv 
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# End time: 16:26:51 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:51 on Nov 08,2023
+# vlog -reportprogress 300 ./flagReg.sv 
+# -- Compiling module flagReg
+# 
+# Top level modules:
+# 	flagReg
+# End time: 16:26:51 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:51 on Nov 08,2023
+# vlog -reportprogress 300 ./decoder_tb.sv 
+# -- Compiling module decoder_tb
+# 
+# Top level modules:
+# 	decoder_tb
+# End time: 16:26:51 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:51 on Nov 08,2023
+# vlog -reportprogress 300 ./datamem.sv 
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# End time: 16:26:51 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:51 on Nov 08,2023
+# vlog -reportprogress 300 ./CPU_datapath.sv 
+# -- Compiling module CPU_datapath
+# -- Compiling module CPU_datapath_tb
+# 
+# Top level modules:
+# 	CPU_datapath_tb
+# End time: 16:26:51 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:51 on Nov 08,2023
+# vlog -reportprogress 300 ./CPU_control.sv 
+# -- Compiling module CPU_control
+# 
+# Top level modules:
+# 	CPU_control
+# End time: 16:26:51 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:26:51 on Nov 08,2023
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module CPU_tb
+# 
+# Top level modules:
+# 	CPU_tb
+# End time: 16:26:51 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:26:51 on Nov 08,2023, Elapsed time: 0:01:02
+# Errors: 9, Warnings: 1
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_tb 
+# Start time: 16:26:52 on Nov 08,2023
+# Loading sv_std.std
+# Loading work.CPU_tb
+# Loading work.CPU
+# Loading work.instruction_datapath
+# Loading work.SE
+# Loading work.shifter
+# Loading work.adder64bit
+# Loading work.adder
+# Loading work.CPU_control
+# Loading work.CPU_datapath
+# Loading work.regfile
+# Loading work.decoder
+# Loading work.decode2to4
+# Loading work.decode3to8
+# Loading work.mux64X32to1
+# Loading work.alu
+# Loading work.alu1bit
+# Loading work.mux2to1_lab2
+# Loading work.mux8to1_lab2
+# Loading work.test_zero
+# Loading work.datamem
+# Loading work.MOVZ
+# Loading work.MOVK
+# Loading work.flagReg
+# Loading work.instructmem
+# Loading work.D_FF
+# Loading work.mux32to1
+# Loading work.mux16to1
+# Loading work.mux4to1
+# Loading work.mux2to1
+# Loading work.input_register
+# Loading work.mux2to1v2
+# ** Warning: Design size of 6733 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test10_forwarding.arm
+# ** Error: Assertion error.
+#    Time: 550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 1550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:13 on Nov 08,2023
+# vlog -reportprogress 300 ./alustim.sv 
+# -- Compiling module alustim
+# 
+# Top level modules:
+# 	alustim
+# End time: 16:28:13 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:13 on Nov 08,2023
+# vlog -reportprogress 300 ./alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 16:28:13 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:13 on Nov 08,2023
+# vlog -reportprogress 300 ./alu1bit.sv 
+# -- Compiling module alu1bit
+# -- Compiling module alu1bit_tb
+# 
+# Top level modules:
+# 	alu1bit_tb
+# End time: 16:28:13 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:13 on Nov 08,2023
+# vlog -reportprogress 300 ./adder.sv 
+# -- Compiling module adder
+# -- Compiling module adder_tb
+# 
+# Top level modules:
+# 	adder_tb
+# End time: 16:28:13 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:13 on Nov 08,2023
+# vlog -reportprogress 300 ./test_zero.sv 
+# -- Compiling module test_zero
+# 
+# Top level modules:
+# 	test_zero
+# End time: 16:28:14 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:14 on Nov 08,2023
+# vlog -reportprogress 300 ./mux.sv 
+# -- Compiling module mux2to1_lab2
+# -- Compiling module mux8to1_lab2
+# 
+# Top level modules:
+# 	mux2to1_lab2
+# 	mux8to1_lab2
+# End time: 16:28:14 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:14 on Nov 08,2023
+# vlog -reportprogress 300 ./mux1.sv 
+# -- Compiling module mux64X32to1
+# -- Compiling module mux32to1
+# -- Compiling module mux16to1
+# -- Compiling module mux4to1
+# -- Compiling module mux2to1
+# -- Compiling module mux2to1v2
+# 
+# Top level modules:
+# 	mux64X32to1
+# 	mux2to1v2
+# End time: 16:28:14 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:14 on Nov 08,2023
+# vlog -reportprogress 300 ./SE.sv 
+# -- Compiling module SE
+# -- Compiling module SE_tb
+# 
+# Top level modules:
+# 	SE_tb
+# End time: 16:28:14 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:14 on Nov 08,2023
+# vlog -reportprogress 300 ./math.sv 
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# End time: 16:28:14 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:14 on Nov 08,2023
+# vlog -reportprogress 300 ./adder64bit.sv 
+# -- Compiling module adder64bit
+# -- Compiling module adder64bit_tb
+# 
+# Top level modules:
+# 	adder64bit_tb
+# End time: 16:28:14 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:14 on Nov 08,2023
+# vlog -reportprogress 300 ./dflipflop.sv 
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# End time: 16:28:14 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:14 on Nov 08,2023
+# vlog -reportprogress 300 ./instruction_datapath.sv 
+# -- Compiling module instruction_datapath
+# -- Compiling module instruction_datapath_tb
+# 
+# Top level modules:
+# 	instruction_datapath_tb
+# End time: 16:28:14 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:14 on Nov 08,2023
+# vlog -reportprogress 300 ./MOV.sv 
+# -- Compiling module MOVZ
+# -- Compiling module MOVK
+# -- Compiling module MOVZ_tb
+# -- Compiling module MOVK_tb
+# 
+# Top level modules:
+# 	MOVZ_tb
+# 	MOVK_tb
+# End time: 16:28:14 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:14 on Nov 08,2023
+# vlog -reportprogress 300 ./regstim.sv 
+# -- Compiling module regstim
+# 
+# Top level modules:
+# 	regstim
+# End time: 16:28:14 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:14 on Nov 08,2023
+# vlog -reportprogress 300 ./regfile.sv 
+# -- Compiling module regfile
+# -- Compiling module decoder
+# -- Compiling module decode2to4
+# -- Compiling module decode3to8
+# -- Compiling module input_register
+# 
+# Top level modules:
+# 	regfile
+# End time: 16:28:14 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:14 on Nov 08,2023
+# vlog -reportprogress 300 ./mux_tb.sv 
+# -- Compiling module mux4to1_tb
+# -- Compiling module mux16to1_tb
+# -- Compiling module mux64x32to1_tb
+# 
+# Top level modules:
+# 	mux4to1_tb
+# 	mux16to1_tb
+# 	mux64x32to1_tb
+# End time: 16:28:14 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:14 on Nov 08,2023
+# vlog -reportprogress 300 ./instructmem.sv 
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# End time: 16:28:15 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:15 on Nov 08,2023
+# vlog -reportprogress 300 ./flagReg.sv 
+# -- Compiling module flagReg
+# 
+# Top level modules:
+# 	flagReg
+# End time: 16:28:15 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:15 on Nov 08,2023
+# vlog -reportprogress 300 ./decoder_tb.sv 
+# -- Compiling module decoder_tb
+# 
+# Top level modules:
+# 	decoder_tb
+# End time: 16:28:15 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:15 on Nov 08,2023
+# vlog -reportprogress 300 ./datamem.sv 
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# End time: 16:28:15 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:15 on Nov 08,2023
+# vlog -reportprogress 300 ./CPU_datapath.sv 
+# -- Compiling module CPU_datapath
+# -- Compiling module CPU_datapath_tb
+# 
+# Top level modules:
+# 	CPU_datapath_tb
+# End time: 16:28:15 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:15 on Nov 08,2023
+# vlog -reportprogress 300 ./CPU_control.sv 
+# -- Compiling module CPU_control
+# 
+# Top level modules:
+# 	CPU_control
+# End time: 16:28:15 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:28:15 on Nov 08,2023
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module CPU_tb
+# 
+# Top level modules:
+# 	CPU_tb
+# End time: 16:28:15 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:28:16 on Nov 08,2023, Elapsed time: 0:01:24
+# Errors: 22, Warnings: 1
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_tb 
+# Start time: 16:28:16 on Nov 08,2023
+# Loading sv_std.std
+# Loading work.CPU_tb
+# Loading work.CPU
+# Loading work.instruction_datapath
+# Loading work.SE
+# Loading work.shifter
+# Loading work.adder64bit
+# Loading work.adder
+# Loading work.CPU_control
+# Loading work.CPU_datapath
+# Loading work.regfile
+# Loading work.decoder
+# Loading work.decode2to4
+# Loading work.decode3to8
+# Loading work.mux64X32to1
+# Loading work.alu
+# Loading work.alu1bit
+# Loading work.mux2to1_lab2
+# Loading work.mux8to1_lab2
+# Loading work.test_zero
+# Loading work.datamem
+# Loading work.MOVZ
+# Loading work.MOVK
+# Loading work.flagReg
+# Loading work.instructmem
+# Loading work.D_FF
+# Loading work.mux32to1
+# Loading work.mux16to1
+# Loading work.mux4to1
+# Loading work.mux2to1
+# Loading work.input_register
+# Loading work.mux2to1v2
+# ** Warning: Design size of 6733 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test11_sort.arm
+# ** Error: Assertion error.
+#    Time: 150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 1850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 2950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 6050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 6550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 7050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 7250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 7750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 8250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 8450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 9450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 9650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 10150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 10650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 10850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 11350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 12050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 12550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 13050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 14450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 14950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 15150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 15650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 15850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 16050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 16550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 17050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 17250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 17750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 18250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 18450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 18950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 19450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 19650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 20150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 20650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 20850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 21350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 21850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 22050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 23550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 23650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 24450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 24650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 24850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 25350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 25850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 26050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 26550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 26750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 26950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 27450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 27950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 28150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 28650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 29150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 29350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 29850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 30350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 30550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 31050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 31550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 32050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 32150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 32950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 33450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 33650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 34150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 34350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 34550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 35050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 35550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 35750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 36250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 36750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 36950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 37450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 37950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 38150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 38650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 39150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 39650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 39750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 40550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 40750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 40950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 41450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 41950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 42150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 42650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 42850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 43050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 43550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 43750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 43950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 44450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 44950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 45450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 45550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 46350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 46850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 47050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 47550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 47750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 47950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 48450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 48650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 48850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 49350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 49850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 50350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 50450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 51250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 51450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 51650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 52150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 52350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 52550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 53050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 53550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 54050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 54150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 54950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 55150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 55350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 55850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 56350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 56850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 56950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 57750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 58250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:35 on Nov 08,2023
+# vlog -reportprogress 300 ./alustim.sv 
+# -- Compiling module alustim
+# 
+# Top level modules:
+# 	alustim
+# End time: 16:36:35 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:35 on Nov 08,2023
+# vlog -reportprogress 300 ./alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 16:36:35 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:35 on Nov 08,2023
+# vlog -reportprogress 300 ./alu1bit.sv 
+# -- Compiling module alu1bit
+# -- Compiling module alu1bit_tb
+# 
+# Top level modules:
+# 	alu1bit_tb
+# End time: 16:36:35 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:35 on Nov 08,2023
+# vlog -reportprogress 300 ./adder.sv 
+# -- Compiling module adder
+# -- Compiling module adder_tb
+# 
+# Top level modules:
+# 	adder_tb
+# End time: 16:36:35 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:35 on Nov 08,2023
+# vlog -reportprogress 300 ./test_zero.sv 
+# -- Compiling module test_zero
+# 
+# Top level modules:
+# 	test_zero
+# End time: 16:36:35 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:35 on Nov 08,2023
+# vlog -reportprogress 300 ./mux.sv 
+# -- Compiling module mux2to1_lab2
+# -- Compiling module mux8to1_lab2
+# 
+# Top level modules:
+# 	mux2to1_lab2
+# 	mux8to1_lab2
+# End time: 16:36:35 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:35 on Nov 08,2023
+# vlog -reportprogress 300 ./mux1.sv 
+# -- Compiling module mux64X32to1
+# -- Compiling module mux32to1
+# -- Compiling module mux16to1
+# -- Compiling module mux4to1
+# -- Compiling module mux2to1
+# -- Compiling module mux2to1v2
+# 
+# Top level modules:
+# 	mux64X32to1
+# 	mux2to1v2
+# End time: 16:36:35 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:35 on Nov 08,2023
+# vlog -reportprogress 300 ./SE.sv 
+# -- Compiling module SE
+# -- Compiling module SE_tb
+# 
+# Top level modules:
+# 	SE_tb
+# End time: 16:36:35 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:35 on Nov 08,2023
+# vlog -reportprogress 300 ./math.sv 
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# End time: 16:36:35 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:35 on Nov 08,2023
+# vlog -reportprogress 300 ./adder64bit.sv 
+# -- Compiling module adder64bit
+# -- Compiling module adder64bit_tb
+# 
+# Top level modules:
+# 	adder64bit_tb
+# End time: 16:36:35 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:35 on Nov 08,2023
+# vlog -reportprogress 300 ./dflipflop.sv 
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# End time: 16:36:35 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:36 on Nov 08,2023
+# vlog -reportprogress 300 ./instruction_datapath.sv 
+# -- Compiling module instruction_datapath
+# -- Compiling module instruction_datapath_tb
+# 
+# Top level modules:
+# 	instruction_datapath_tb
+# End time: 16:36:36 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:36 on Nov 08,2023
+# vlog -reportprogress 300 ./MOV.sv 
+# -- Compiling module MOVZ
+# -- Compiling module MOVK
+# -- Compiling module MOVZ_tb
+# -- Compiling module MOVK_tb
+# 
+# Top level modules:
+# 	MOVZ_tb
+# 	MOVK_tb
+# End time: 16:36:36 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:36 on Nov 08,2023
+# vlog -reportprogress 300 ./regstim.sv 
+# -- Compiling module regstim
+# 
+# Top level modules:
+# 	regstim
+# End time: 16:36:36 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:36 on Nov 08,2023
+# vlog -reportprogress 300 ./regfile.sv 
+# -- Compiling module regfile
+# -- Compiling module decoder
+# -- Compiling module decode2to4
+# -- Compiling module decode3to8
+# -- Compiling module input_register
+# 
+# Top level modules:
+# 	regfile
+# End time: 16:36:36 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:36 on Nov 08,2023
+# vlog -reportprogress 300 ./mux_tb.sv 
+# -- Compiling module mux4to1_tb
+# -- Compiling module mux16to1_tb
+# -- Compiling module mux64x32to1_tb
+# 
+# Top level modules:
+# 	mux4to1_tb
+# 	mux16to1_tb
+# 	mux64x32to1_tb
+# End time: 16:36:36 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:36 on Nov 08,2023
+# vlog -reportprogress 300 ./instructmem.sv 
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# End time: 16:36:36 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:36 on Nov 08,2023
+# vlog -reportprogress 300 ./flagReg.sv 
+# -- Compiling module flagReg
+# 
+# Top level modules:
+# 	flagReg
+# End time: 16:36:36 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:36 on Nov 08,2023
+# vlog -reportprogress 300 ./decoder_tb.sv 
+# -- Compiling module decoder_tb
+# 
+# Top level modules:
+# 	decoder_tb
+# End time: 16:36:36 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:36 on Nov 08,2023
+# vlog -reportprogress 300 ./datamem.sv 
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# End time: 16:36:36 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:36 on Nov 08,2023
+# vlog -reportprogress 300 ./CPU_datapath.sv 
+# -- Compiling module CPU_datapath
+# -- Compiling module CPU_datapath_tb
+# 
+# Top level modules:
+# 	CPU_datapath_tb
+# End time: 16:36:36 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:36 on Nov 08,2023
+# vlog -reportprogress 300 ./CPU_control.sv 
+# -- Compiling module CPU_control
+# 
+# Top level modules:
+# 	CPU_control
+# End time: 16:36:36 on Nov 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:36:36 on Nov 08,2023
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module CPU_tb
+# 
+# Top level modules:
+# 	CPU_tb
+# End time: 16:36:37 on Nov 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:36:37 on Nov 08,2023, Elapsed time: 0:08:21
+# Errors: 147, Warnings: 1
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_tb 
+# Start time: 16:36:37 on Nov 08,2023
+# Loading sv_std.std
+# Loading work.CPU_tb
+# Loading work.CPU
+# Loading work.instruction_datapath
+# Loading work.SE
+# Loading work.shifter
+# Loading work.adder64bit
+# Loading work.adder
+# Loading work.CPU_control
+# Loading work.CPU_datapath
+# Loading work.regfile
+# Loading work.decoder
+# Loading work.decode2to4
+# Loading work.decode3to8
+# Loading work.mux64X32to1
+# Loading work.alu
+# Loading work.alu1bit
+# Loading work.mux2to1_lab2
+# Loading work.mux8to1_lab2
+# Loading work.test_zero
+# Loading work.datamem
+# Loading work.MOVZ
+# Loading work.MOVK
+# Loading work.flagReg
+# Loading work.instructmem
+# Loading work.D_FF
+# Loading work.mux32to1
+# Loading work.mux16to1
+# Loading work.mux4to1
+# Loading work.mux2to1
+# Loading work.input_register
+# Loading work.mux2to1v2
+# ** Warning: Design size of 6733 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ./benchmarks/test12_ToUpper.arm
+# ** Error: Assertion error.
+#    Time: 3750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 3850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 4450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 4650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 5750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 6150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 6250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 6450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 6650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 6850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 7250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 7350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 7350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 7550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 8050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 8050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 8250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 8650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 8950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 9150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 9350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 9750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 9850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 10050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 10250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 10450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 10850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 10950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 11150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 11350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 12050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 12050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 12250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 12650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 12950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 13150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 13350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 13750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 13850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 14050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 14250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 14450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 14850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 14950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 15150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 15350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 15550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 15950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 16050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 16250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 16450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 16650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 17050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 17350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 17550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 17750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 18150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 18250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 18450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 18650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 18850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 19250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 19350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 19550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 19750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 20350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 20650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 20850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 21050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 21550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 21550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 21750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 22150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 22250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 22450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 22650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 22850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 23250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 23350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 23750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 23950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 24350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 24650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 24850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 25050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 25450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 25550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 25750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 25950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 26150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 26550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 26650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 26850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 27050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 27250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 27650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 27750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 27950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 28150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 28750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 29050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 29250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 29450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 29850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 29950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 30150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 30350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 30550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 30950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 31050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 31250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 31450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 31650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 32050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 32150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 32350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 32550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 32750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 33250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 33250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 33450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 33850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 34150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 34350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 34550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 34950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 35050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 35250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 35450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 35650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 36050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 36150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 36350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 36550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 37250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 37250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 37450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 37850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 37950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 38150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 38350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 38550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 38950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 39050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 39250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 39450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 39650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 40150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 40150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 40350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 40750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 40850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 41050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 41250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 41450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 41950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 42150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 42550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 42950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 43250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 43450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 43650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 44050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 44150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 44350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 44550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 45150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 45250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 45250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 45450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 45950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 45950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 46150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 46550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 46650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 46650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 46850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 47250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 47550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 47750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 47950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 48350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 48450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 48650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 48850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 49050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 49450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 49550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 49750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 49950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 50150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 50650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 50650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 50850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 51250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 51350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 51750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 52350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 52450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 52650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 52850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 53050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 53450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 53550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 53950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 54150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 54550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 54650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 54850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 55450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 55950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 56150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 56550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 56650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 56850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 57150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 57250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 57950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 58050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 58250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 58550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 58750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 58950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 59250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 59350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 59450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 59650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 59950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 60050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 60050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 60150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 60350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 60650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 60650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 60750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 60750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 60850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 61050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 61350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 61350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 61450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 61450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 61550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 61750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 62050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 62050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 62150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 62150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 62250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 62450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 62750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 62850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 63450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 63550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 63550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 63650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 63850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 64150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 64150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 64250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 64250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 64350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 64550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 64850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 64850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 64950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 64950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 65050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 65250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 65550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 65550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 65650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 65650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 65750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 65950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 66250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 66250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 66350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 66450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 66650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 66950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 67050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 67150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 67350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 67650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 67750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 67750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 67850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 68050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 68350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 68350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 68450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 68450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 69050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 69050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 69150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 69150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 69250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 69450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 69750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 69750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 69850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 69950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 70150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 70450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 70550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 70550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 70650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 70850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 71150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 71250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 71250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 71350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 71550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 71850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 71850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 71950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 71950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 72050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 72250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 72550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 72550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 72650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 72750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 72950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 73250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 73350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 73350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 73450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 73650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 73950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 73950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 74050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 74050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 74650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 74650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 74750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 74750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 74850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 75050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 75350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 75350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 75450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 75450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 75550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 75750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 76050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 76050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 76150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 76150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 76250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 76450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 76750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 76750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 76850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 76850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 76950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 77150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 77450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 77550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 77550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 77650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 77850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 78150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 78150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 78250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 78250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 78350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 78550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 78850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 78950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 78950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 79050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 79250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 79550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 79650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 80250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 80350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 80350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 80450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 80650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 80950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 80950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 81050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 81050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 81150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 81350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 81650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 81650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 81750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 81850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 82050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 82350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 82450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 82450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 82550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 82750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 83050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 83050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 83150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 83150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 83250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 83450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 83750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 83750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 83850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 83850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 83950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 84150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 84450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 84450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 84550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 84550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 84650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 84850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 85150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 85150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 85250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 85250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 85850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 85850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 85950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 85950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 86050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 86250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 86550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 86550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 86650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 86650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 86750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 86950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 87250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 87250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 87350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 87350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 87450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 87650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 87950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 87950 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 88050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 88050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 88150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 88350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 88650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 88650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 88750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 88750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 88850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 89050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 89350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 89350 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 89450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 89550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 89750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 90050 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 90150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 90150 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 90250 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 90450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 90750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 90750 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 90850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 90850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 91450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 91450 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 91550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 91550 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 33
+# ** Error: Assertion error.
+#    Time: 91650 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# ** Error: Assertion error.
+#    Time: 91850 ns  Scope: CPU_tb.dut.test3.MEMORY File: ./datamem.sv Line: 31
+# End time: 16:41:52 on Nov 08,2023, Elapsed time: 0:05:15
+# Errors: 476, Warnings: 1
